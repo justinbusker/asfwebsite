@@ -2,37 +2,42 @@
 ---
 import asflogo from '../assets/asflogonobackground.png';
 import background from '../assets/background.png';
+import SocialBar from '../components/SocialBar.astro';
 ---
 
 <div id="container" class="bg-white">
 	<body>
-		<h1 class="text-center text-7xl  py-10 text-white mb-3 bg-gradient-to-r from-red-900 via-red-700 to-red-900">ABOUT US</h1>
+		<h1 class="text-center text-5xl sm:text-7xl  py-10 text-white mb-3 bg-gradient-to-r from-red-900 via-red-700 to-red-900">ABOUT US</h1>
 		<div class="flex mx-1 my-2 flex-col md:flex-wrap md:flex-row md:mx-20 md:my-10">
 
 			<div class="w-100% m-2 flex-1 border-2 border-solid p-3 border-red-800 md:w-1/3">
 				<h1 class="text-center text-4xl mb-2">Meetings</h1>
-				<h2 class="text-xl">Our typical weekly meetings last about an hour. Members meet to give pitches on
+				<img src="https://static.vecteezy.com/system/resources/previews/051/071/220/non_2x/business-meeting-icon-people-group-sign-teamwork-symbol-vector.jpg" alt="meetings" class="w-[200px] h-[200px] mx-auto">
+				<h2 class="text-2xl">Our typical weekly meetings last about an hour. Members meet to give pitches on
 					securities, discuss the direction of the fund, and vote on decisions within the fund.
 					Guest Speakers: We typically have a guest speaker connect with the club every semester to
 					gain insight and experience from industry professionals. Last semester we were very fortunate
 					to have Texas A&M Graduate and Shelter Growth Capital Partners Founder Dan Sparks speak
-					with us</h2>
+					with us.</h2>
 			</div>
 
 
 			<div class="w-100% m-2 flex-1 border-2 border-solid p-3 border-red-800 md:w-1/3">
 				<h1 class="text-center text-4xl mb-2">Socials</h1>
-				<h2 class="text-xl">Our goal as a club is not just about the markets, but also to find individuals who want to
+				<img src="https://png.pngtree.com/png-vector/20191120/ourmid/pngtree-team-or-friends-icon-simple-style-png-image_2003096.jpg" alt="social" class="w-[200px] h-[200px] mx-auto">
+				<h2 class="text-2xl">Our goal as a club is not just about the markets, but also to find individuals who want to
 					create lifelong connections and friendships. Since this is our mission, we find it necessary to
 					take a break from the typical meetings a couple times per semester.</h2>
 			</div>
 			<div class="m-2 flex-1 border-2 border-solid p-3 border-red-800 md:w-1/3">
 				<h1 class="text-center text-4xl mb-2">The Fund</h1>
-				<h2 class="text-xl">Most of our meetings revolve around managing the ASF Portfolio. The Fund is
+				<img src="https://static.vecteezy.com/system/resources/previews/025/254/920/non_2x/growth-diagram-logo-icon-with-sign-dollar-and-arrow-going-up-line-icon-isolated-on-white-background-success-business-finance-investment-symbol-vector.jpg" alt="investment" class="w-[200px] h-[200px] mx-auto">
+				<h2 class="text-2xl">Most of our meetings revolve around managing the ASF Portfolio. The Fund is
 					designed to be an all-weather portfolio, successful in any economic or market condition. ASF
 					Members are allowed to invest in the fund but are not required to.</h2>
 			</div>
 		</div>
+		<SocialBar />
 	</body>
 </div>
 

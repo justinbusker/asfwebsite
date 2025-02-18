@@ -5,16 +5,16 @@ import {Image } from 'astro:assets';
 
 <div class="flex bg-white ">
 	<a href="/" class="p-3">
-		<Image src={asflogo} alt="ASFlogo" format="png" width="75px" height="75px" quality={100}/>
+		<Image src={asflogo} alt="ASFlogo" format="png" class="w-[75px] h-[75px]" quality={100}/>
 	</a>
 	<div class="flex justify-center">
 		
 	<nav class="flex p-1 text-xl ">
 			
-	<a href="/" class="p-2 content-center">Home</a>
-		<a href="/about" class="p-2 content-center">About Us</a>
-		<a href="/recruitment" class="p-2 content-center">Recruitment</a>
-		<a href="/recruitment" class="p-2 content-center">Contact</a>
+	<a href="/" class="p-2 content-center transition-colors duration-300 hover:text-red-700">Home</a>
+		<a href="/about" class="p-2 content-center transition-colors duration-300 hover:text-red-700">About Us</a>
+		<a href="/recruitment" class="p-2 content-center transition-colors duration-300 hover:text-red-700">Recruitment</a>
+		<a href="/contact" class="p-2 content-center transition-colors duration-300 hover:text-red-700">Contact</a>
 </nav>
 	</div>
 </div>
