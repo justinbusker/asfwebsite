@@ -1,13 +1,15 @@
 
 ---
+import { Image } from 'astro:assets';
 import asflogo from '../assets/asflogonobackground.png';
 import background from '../assets/background.png';
+import recruitmentImage from '../RecruitmentCalendar.png'
 ---
 
 <div id="container">
-	<body>
-		<h1 class="text-center text-5xl py-10 text-white mb-3 bg-gradient-to-r from-red-900 via-red-700 to-red-900 sm:text-7xl">RECRUITMENT</h1>
-	</body>
+		<Image src={recruitmentImage} alt="Recruitment Calendar" class="w-[100vw] md:w-[50vw] origin-center mx-auto"/>
+		<div class="origin-center mx-auto"><p class="text-center"><a href="https://tinyurl.com/tamuasfspring2025" class="underline text-red-700 mx-auto origin-center text-center">Apply Here!</a></p></div>
+		
 
 	</div>
 
